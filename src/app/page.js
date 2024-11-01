@@ -1,12 +1,9 @@
 
-
-
-export default function Page() {
-
-
+export default function HomePage() {
   return (
-    <>
-    <h1>Hii</h1>
-    </>
+    <div>
+
+      <p className="text-red-500">This is the Home landing page of the app.</p>
+    </div>
   );
 }
